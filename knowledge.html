@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="knowledge.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="flex">
+        <div id="navleft" class="flex">
+          <button id="btn"><img src="icons8-menu-64.png" alt="menu" /></button>
+          <a href="modern.html" id="name"
+            ><span id="one">Nasha</span><span id="two">Mukt</span
+            ><span id="three">Bharat</span></a
+          >
+        </div>
+        <div class="flex">
+          <a href="login.html"
+            ><img
+              src="iconmonstr-user-19-240.png"
+              alt="login"
+              style="width: 40px"
+          /></a>
+          <p id="login">
+            <a href="login.html" style="text-decoration: none; color: black">
+              Profile</a
+            >
+          </p>
+        </div>
+    </nav>
+    <div id="menu">
+        <button id="btn1"><img src="icons8-menu-64.png" alt="menu" /></button>
+        <div id="menucontainer">
+          <p><a href="login.html">Your Profile</a></p>
+          <p><a href="addictiontst.html">Addiction Test</a></p>
+          <p><a href="#">Global Statistics</a></p>
+          <p><a href="knowledge.html">Managing Addiction</a></p>
+          <p><a href="#">FAQ</a></p>
+          <p><a href="#frm.html">Become a volunteer / Need Volunteers</a></p>
+        </div>
+    </div>
+    <div id="data">
+      
+    </div>
+      <script>
+        const btn = document.getElementById("btn");
+        btn.onclick = function () {
+          const a = document.getElementById("menu");
+          if (a.style.display == "none") {
+            a.style.display = "block";
+          } else {
+            a.style.display = "none";
+          }
+          console.log("CLICKED!");
+        };
+        const btn1 = document.getElementById("btn1");
+        btn1.onclick = function () {
+          const a = document.getElementById("menu");
+          if (a.style.display == "none") {
+            a.style.display = "block";
+          } else {
+            a.style.display = "none";
+          }
+          console.log("CLICKED!");
+        };
+      </script>  
+</body>
+</html>
