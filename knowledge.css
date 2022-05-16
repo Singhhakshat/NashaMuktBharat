@@ -109,8 +109,41 @@ nav{
 
 #data{
     margin-top: 65px;
-    margin-left: 4%;
-    margin-right: 4%;
-    height: 200vh;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 60px;
+    height: 255vh;
     background-color: lightblue;
+}
+
+#data h1,#measures h1{
+    margin-bottom: 25px;
+    font-size: 2.4em;
+    margin-top: 20px;
+}
+#data h2,#measures h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#data p,#measures p{
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+#data ul,#measures ul{
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+#data li,#measures li{
+    margin-top: 3px;
+}
+#measures{
+    margin-top: 50px;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 60px;
+    height: 200vh;
+    /* background-color: rgb(255, 255, 144); */
+    background-color: bisque;
 }
