@@ -31,13 +31,13 @@
         </div> -->
       </nav>
       <div id="menu">
-        <button id="btn1"><img src="icons8-menu-64.png" alt="menu" /></button>
+        <button id="btn1"><img src="iconmonstr-x-mark-1-240.png" alt="menu" style="width: 35px; margin-left:15px;"/></button>
         <div id="menucontainer">
           <p><a href="login.html">Your Profile</a></p>
           <p><a href="addictiontst.html">Addiction Test</a></p>
           <p><a href="#">Global Statistics</a></p>
           <p><a href="knowledge.html">General Treatment</a></p>
-          <p><a href="#">FAQ</a></p>
+          <p><a href="message.html">Messages from ex-addicts</a></p>
           <p><a href="frm.html">Become a volunteer / Need Volunteers</a></p>
         </div>
       </div>
@@ -46,7 +46,7 @@
             <h1>Addiction <br> Self-Test: <br> <span style="color: rgb(209, 27, 27);">Am I Addicted?</span></h1>
         </div>
         <div id="right">
-            <form action="#">
+            <!-- <form action="#">
                 <p>Do you often use Alcohol in larger amounts or over a longer period of time than you intended?</p>
                 <div class="answer">
                     <label class="container">Yes
@@ -179,7 +179,30 @@
                     </label>
                 </div>
                 <input type="button" value="Submit" id="submit">
-            </form>
+            </form> -->
+            <div class="quiz-container" id="quiz">
+                <div class="quiz-header">
+                  <h2 id="question">Question Text</h2>
+                  <ul>
+                    <li>
+                      <input type="radio" name="answer" id="a" class="answer">
+                      <label for="a" id="a_text">Answer</label>
+                    </li>
+            
+                    <li>
+                      <input type="radio" name="answer" id="b" class="answer">
+                      <label for="b" id="b_text">Answer</label>
+                    </li>
+            
+                  </ul>
+                </div>
+            
+                <button id="submit">Next</button>
+            
+              </div>
+            
+            
+              <script src="script.js"></script>
         </div>
 
       <script>
