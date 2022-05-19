@@ -116,8 +116,8 @@ submitBtn.addEventListener('click', () => {
            quiz.innerHTML = `
            <h2>Your score was ${score}/${quizData.length}</h2>
            <h3 style="margin-left:20px; padding:10px; padding-bottom:5px; font-style: italic;">If your score is below 3 you're highly addicted</h3>
-           <h3 style="margin-left:20px; padding:10px; padding-bottom:5px; font-style: italic;">If your score is in 3 to 7 you're mildly addicted</h3>
-           <h3 style="margin-left:20px; padding:10px; padding-bottom:5px; font-style: italic;">If your score is below 3 you're highly addicted</h3>
+           <h3 style="margin-left:20px; padding:10px; padding-bottom:5px; font-style: italic;">If your score is in 3 to 7 range you're mildly addicted</h3>
+           <h3 style="margin-left:20px; padding:10px; padding-bottom:5px; font-style: italic;">If your score is above 7, Congratulations! you're not addicted.</h3>
            <button onclick="location.reload()">Retake Quiz</button>
            `
        }
